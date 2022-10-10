@@ -6,8 +6,8 @@
 ## Read in data below:
 
 
-BikeSeoul <- read.csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeSeoul.csv")
-BikeWashingtonDC <- read.csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeWashingtonDC.csv")
+BikeSeoul <- readr::read_csv("Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeSeoul.csv")
+BikeWashingtonDC <- readr::read_csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeWashingtonDC.csv")
 
 
 ## Load in packages needed:
