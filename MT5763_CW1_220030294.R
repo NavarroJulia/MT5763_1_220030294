@@ -6,7 +6,7 @@
 ## Read in data below:
 
 
-BikeSeoul <- read_csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeSeoul.csv")
+BikeSeoul <- read.csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeSeoul.csv")
 BikeWashingtonDC <- read.csv("~/Julias stuff/University stuff/St Andrews/Semester 1/MT5763 Software for Data Analysis/Coursework 1/BikeWashingtonDC.csv")
 
 
@@ -20,7 +20,7 @@ library(ggplot2)
 
 
 
-                 ##      Date wrangling      ##
+                 ##      Data wrangling      ##
 
 
  
