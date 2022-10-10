@@ -124,7 +124,7 @@ BikeW <- BikeW %>%
 
 ## change the Day/Month/Day to the same format as in BikeW (Y/M/D):
 
-BikeS <- BikeS %>% mutate(Date = dmy(BikeS$Date)) 
+BikeS <- BikeS %>% mutate(Date = ymd(BikeS$Date)) 
 
 
 
